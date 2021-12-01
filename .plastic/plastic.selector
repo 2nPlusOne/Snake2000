@@ -1,0 +1,4 @@
+repository "Snake2000@Spotnose_Studio@cloud"
+  path "/"
+    br "/main"
+    co "/main"

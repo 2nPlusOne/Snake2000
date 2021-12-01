@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03fab377e474b744eb6a11d243d290f2, type: 3}
+  m_Name: Segment Types
+  m_EditorClassIdentifier: 
+  BodyCornerLeftDownUpRightFat: {fileID: 4856955358265394756, guid: c126ab1242f64124d89d9a5194392c54, type: 3}
+  BodyCornerLeftDownUpRight: {fileID: 1909501982464818385, guid: 24d296c8fae32f5419375702f609479a, type: 3}
+  BodyCornerLeftUpDownRightFat: {fileID: 62020975626786087, guid: 9df68ecf9233f0446abe84c4c6ba7cc9, type: 3}
+  BodyCornerLeftUpDownRight: {fileID: 7446851475647147397, guid: 414859b28ccdbac4ca05365fe8193986, type: 3}
+  BodyCornerRightDownUpLeftFat: {fileID: 951403128817610612, guid: 970239a9473d32e42b099b5f765d5772, type: 3}
+  BodyCornerRightDownUpLeft: {fileID: 8798527994938707243, guid: 3239291f1ab19984eb3e44179be15d85, type: 3}
+  BodyCornerRightUpDownLeftFat: {fileID: 3107533982272710519, guid: b03787a4b4577bb4e84039719cb3493a, type: 3}
+  BodyCornerRightUpDownLeft: {fileID: 1633832256140256840, guid: df4263905cf724346b11aa68875e9a8e, type: 3}
+  BodyStraightLeftDownFat: {fileID: 9029881128367569753, guid: 0328df27fead6e547a2cf26d1c1fb5ae, type: 3}
+  BodyStraightLeftDown: {fileID: 5452222534649292083, guid: a8f3a0a8824eeaa4a92c68a55bdb8203, type: 3}
+  BodyStraightRightUpFat: {fileID: 2420942912090415784, guid: 65b53faaed618b24ba1408ded113fdc0, type: 3}
+  BodyStraightRightUp: {fileID: 5013852300591971471, guid: 1f372c976be6f6d4e8051a8e03fe5dca, type: 3}
+  HeadLeftDownEat: {fileID: 5445409290184799713, guid: 2a68eb3a9ca3b2440ad754adccfafb91, type: 3}
+  HeadLeftDown: {fileID: 6380633762001324423, guid: 5bfb187512a7f9247942eaaa358902f8, type: 3}
+  HeadRightUpEat: {fileID: 5971615202878754079, guid: 3671783231d9b6e47a2ecf54e06e7981, type: 3}
+  HeadRightUp: {fileID: 113029807569346087, guid: 350ec56826e47504da50f13c6a31e58c, type: 3}
+  TailLeftDown: {fileID: 9003691707722907235, guid: 5f46790eb80ea3c42a355ecdfffd479f, type: 3}
+  TailRightUp: {fileID: 7077241854835434907, guid: 7983084bc657c97458c4fd9dd824b393, type: 3}
