@@ -28,19 +28,24 @@ This project was born from my desire to see a project through from its inception
 
 ### Recreating the Pixel Art
 To recreate the pixel art, I took screenshots of the original gameplay, and sliced up the image (as seen below) to reveal how each segment was constructed. I then recreated each of these segment types as seperate prefab instances in unity using square sprites as pixels. I followed the same procedure to create the pixel art for the snake food and each of the bonus point critter food types. Each grid position in the original game is a 4x4 pixel area, so each prefab was carefully constructed so each pixel lines up properly in it's 4x4 grid area. Each critter took up two grid spaces, so their prefabs have a left and right side.
+<br>
 ![Segment slicing](images/segment_slicing.png/)
+<br>
 ![Critter slicing](images/critter_slicing.png/)
 
 ---
 
 ### Implementing the Pixel Art
 To implement the pixel art using my new prefabs, I needed a way to know which prefab to show for each segment each frame. Which prefab to use for a given segment depends entirely on the positions of the segment in front, and the segment behind. So all I needed to do was track the direction of each segment, calculated with (nextSegment.position - this.segment.position). After normalizing this direction vector, I now have a reliable way of figuring out which direction any given segment is headed. Wiring up the logic was as simple (and unsightly) as writing conditionals to check the current segment's direction and the previous segments direction, and swap to the appropriate segment art prefab. Unfortunately, this is a very quick and dirty way to do this, and results in lots of code duplication.
+<br>
 ![Segment Direction](/images/segment_direction.png/)
 
 Next up was animating snake's head to make it appear as if it is chomping down each bit of food it collects. This involved simply checking if the coordinate in front of the snake head was occupied by food, and if so switch the head prefab to its open mouth variant.
+<br>
 ![Snake Bite](/images/snake_bite.png/)
 
 The last step to implementing the original snake graphics was to animate the snake digesting the food, visualized as a bigger segment that starts at the head and passes through the snake to the tail as seen below.
+<br>
 ![Digestion](/images/digesting.gif/)
 
 After a few trial and errors, I landed on a working, albiet a bit convoluted approach. Each time the snake head collects food, I add the grid position of the food to a list. Each movement step, each segment checks to see if its own position is in the list, and if so changes its prefab to the digesting variant. Once a given list position passes over the tail, it is removed from the list.
@@ -49,9 +54,11 @@ After a few trial and errors, I landed on a working, albiet a bit convoluted app
 
 ### Retro Aesthetic
 To align the game more closely to the original aesthetic, I utilized Unity's post-processing stack. Effects I used across the board include vignette, film grain, chromatic abberation, and bloom. While overblown, these effects shift the aesthetic noticeably towards a more retro style. A slight lens distorition effect sells the retro aesthetic even more. It is important not to go overboard with post-process effects, as they can easily become too heavy-handed and distract rather than immerse.
+<br>
 ![Post-Processing Stack](/images/post-process.gif/)
 
 When the player has the game paused, I switch the post-process profile to one including depth of field, which when adjusted properly blurs the game behind the pause UI panel. The same effect is used to blur the background video playing on the main menu.
+<br>
 ![Paused Post-Process Profile](/images/pause_profile.gif/)
 
 I made the sound effects by grabbing a royalty-free retro blip, and duplicating it at different pitches in Audacity. I made the game over sound effect using the same technique.
@@ -64,7 +71,9 @@ I made the sound effects by grabbing a royalty-free retro blip, and duplicating 
 ---
 
 ### Gameplay
+<br>
 ![Gameplay Demo](/images/snake_demo.gif/)
+<br>
 As of my writing this, the following mechanics from the original game made their way into my project:
 - Edge wrapping
 - Score counter
