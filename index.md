@@ -71,7 +71,6 @@ I made the sound effects by grabbing a royalty-free retro blip, and duplicating 
 ---
 
 ### Gameplay
-<br>
 ![Gameplay Demo](/images/snake_demo.gif/)
 <br>
 As of my writing this, the following mechanics from the original game made their way into my project:
