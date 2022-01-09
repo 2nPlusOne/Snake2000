@@ -1,5 +1,7 @@
 title: Snake 2000
 
+logo: "/images/snake_demo.gif?raw=true"
+
 description: A mostly faithful clone of Snake II released on Nokia 3310. 
 
 ![Gameplay Gif](/images/snake_demo.gif/)
