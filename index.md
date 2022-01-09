@@ -3,7 +3,7 @@
 ## Playing the Game
 The game can be played in three ways. 
 - Download the latest windows build [here](https://drive.google.com/open?id=1VnUr0EvaFDb7PW172db-tMZCQt5xGKxP&authuser=nimblefire97%40gmail.com&usp=drive_fs).
-- Download the repository with the link below, extract it, and open it up in Unity version 2020.3.4f1 LTS
+- Download the repository with the link below, extract it, and open it up in Unity version 2020.3.4f1 LTS.
 - Play a WebGL version [here](https://play.unity.com/mg/other/snake-2000-v0-4) hosted on Unity Play. **Note:** The WebGL build is... strange. The main menu background video does not function properly despite my efforts, the post-processing effects are not tuned correctly, and the input tends to be a bit laggier. To get the intended gameplay experience, follow one of the methods above.
 
 ---
