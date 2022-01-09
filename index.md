@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Recreating Snake II in Unity
 
-You can use the [editor on GitHub](https://github.com/2nPlusOne/Snake2000/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Motivation
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This project was born from my desire to see a project through from its inception to a playable, and hopefully fun, finished product. Snake just happened to be the first project idea that came to mind which seemed in-scope. While doing research for this project I decided to reframe the challenge I had set for myself. Rather than create a game that is vaguely 'snake-like', I would instead make my best effort to recreate the visuals and gameplay of a specific entry in the long line of snake games: Snake II, which was bundled with the Nokia 3310 released in late 2000.
 
-### Markdown
+### Objectives
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- See the project through to a playable, entertaining end product
+- Mirror the original game's aesthetic, art, and gameplay.
+- Use milanote to organize tasks and design docs
+- Practice using the command pattern
 
-```markdown
-Syntax highlighted code block
+### Recreating the Pixel Art
 
-# Header 1
-## Header 2
-### Header 3
+To recreate the pixel art, I took screenshots of the original gameplay, and sliced up the image (as seen below) to reveal how each segment was constructed. I then recreated each of these segment types as seperate prefab instances in unity using square sprites as pixels. I followed the same procedure to create the pixel art for the snake food and each of the bonus point critter food types. Each grid position in the original game is a 4x4 pixel area, so each prefab was carefully constructed so each pixel lines up properly in it's 4x4 grid area.
+![Segment slicing](/images/segment_slicing.png/)
+![Critter slicing](/images/critter_slicing.png/)
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/2nPlusOne/Snake2000/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### [Return to Portfolio](https://2nplusone.github.io/)
