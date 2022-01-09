@@ -1,3 +1,5 @@
+![Snake](images/snake_thumbnail.png)
+
 ## Recreating Snake II in Unity
 
 ---
