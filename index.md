@@ -36,7 +36,7 @@ After a few trial and errors, I landed on a working, albiet a bit convoluted app
 ---
 
 ### Retro Aesthetic
-To align the game more closely to the original aesthetic, I utilized Unity's post-processing stack. Effects I used include across the board include vignette, film grain, chromatic abberation, and bloom. While overblown, these effects shift the aesthetic noticeably towards a more retro style. A slight lens distorition effect sells the retro aesthetic even more. It is important not to go overboard with post-process effects, as they can easily become too heavy-handed and distract rather than immerse.
+To align the game more closely to the original aesthetic, I utilized Unity's post-processing stack. Effects I used across the board include vignette, film grain, chromatic abberation, and bloom. While overblown, these effects shift the aesthetic noticeably towards a more retro style. A slight lens distorition effect sells the retro aesthetic even more. It is important not to go overboard with post-process effects, as they can easily become too heavy-handed and distract rather than immerse.
 ![Post-Processing Stack](/images/post-process.gif/)
 
 When the player has the game paused, I switch the post-process profile to one including depth of field, which when adjusted properly blurs the game behind the pause UI panel. The same effect is used to blur the background video playing on the main menu.
