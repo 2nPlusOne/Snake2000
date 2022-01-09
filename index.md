@@ -69,7 +69,12 @@ You may notice in the gif above that I also added a mechanic which was _not_ pre
 
 *The Ugly:* Code duplication. Lots of it. I've cleaned up a bit of this in a newer version, which will hopefully be pushed to github by the time you read this. Aside from this, the UI is incredibly fragile. The game border is constructed from many individual square sprites. The UI only functions properly in a 16:9 aspect ratio, so I locked the window to 1920x1080. If I were to change this, I would most likely design the game to take place on a Nokia 3310 screen, and let that be static so the user can resize the game to any size they wish that fits the nokia on-screen.
 
+--
+
 ### The Cutting Room Floor
 There are many features from the original Snake II that I omitted in my version, and a few extra superfluous ones that I simply never finished (looking at you, leaderboard). However, I feel good about the state of the game, and I think it is time I move on to my next project and carry with me the lessons learned here. I've been reading through Robert Nystrom's _Game Programming Patterns_, and I look foward to designing my next project with these object-oriented patterns in mind.
+
+--
+--
 
 ### [Return to Portfolio](https://2nplusone.github.io/)
