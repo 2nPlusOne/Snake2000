@@ -31,6 +31,7 @@ Next up was animating snake's head to make it appear as if it is chomping down e
 
 The last step to implementing the original snake graphics was to animate the snake digesting the food, visualized as a bigger segment that starts at the head and passes through the snake to the tail as seen below.
 ![Digestion](/images/digesting.gif/)
+
 After a few trial and errors, I landed on a working, albiet a bit convoluted approach. Each time the snake head collects food, I add the grid position of the food to a list. Each movement step, each segment checks to see if its own position is in the list, and if so changes its prefab to the digesting variant. Once a given list position passes over the tail, it is removed from the list.
 
 ---
