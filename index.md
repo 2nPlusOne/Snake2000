@@ -94,7 +94,7 @@ You may notice in the gif above that I also added a mechanic which was _not_ pre
 ---
 
 ### The Cutting Room Floor
-There are many features from the original Snake II that I omitted in my version, and a few extra superfluous ones that I simply never finished (looking at you, leaderboard). However, I feel good about the state of the game, and I think it is time I move on to my next project and carry with me the lessons learned here. I've been reading through Robert Nystrom's _Game Programming Patterns_, and I look foward to designing my next project with these object-oriented patterns in mind.
+There are many features from the original Snake II that I omitted in my version, and a couple superfluous ones that I simply never finished (looking at you, leaderboard). However, I feel good about the state of the game, and I think it is time I move on to my next project and carry with me the lessons learned here. I've been reading through Robert Nystrom's _Game Programming Patterns_, and I look foward to designing my next project with these object-oriented patterns in mind.
 
 ---
 ---
