@@ -22,7 +22,7 @@ This project was born from my desire to see a project through from its inception
 - See the project through to a playable, entertaining end product
 - Mirror the original game's aesthetic, art, and gameplay.
 - Use milanote to organize tasks and design docs
-- Practice using the command pattern
+- Practice using the observer pattern
 
 ---
 
@@ -85,9 +85,9 @@ You may notice in the gif above that I also added a mechanic which was _not_ pre
 ---
 
 ### The Good, the Bad, and the Ugly
-**The Good:** I am happy with the final state of this project. The aesthetic is interesting, the gameplay feels rewarding, and I feel I brought something interesting to the genre with the combo bar. Along the way I learned valuable lessons about the command pattern, as well as organizing the project in an OO style. I also accomplished my goal of keeping track of tasks using Milanote. For my next project I'll try using GitHub Projects, and compare the two.
+**The Good:** I am happy with the final state of this project. The aesthetic is interesting, the gameplay feels rewarding, and I feel I brought something interesting to the genre with the combo bar. Along the way I learned valuable lessons about the observer pattern, as well as organizing the project in an OO style. I also accomplished my goal of keeping track of tasks using Milanote. For my next project I'll try using GitHub Projects, and compare the two.
 
-**The Bad:** I definitely went overboard with the command pattern here. In many places I overzealously added an unnecessary layer of complexity to an otherwise simple architecture. It would have paid off to do a bit more planning to figure out the responsibilities of each of my classes. In a few places I have classes performing tasks which are unrelated to their intended purpose. 
+**The Bad:** I definitely went overboard with the observer pattern here. In many places I overzealously added an unnecessary layer of complexity to an otherwise simple architecture. It would have paid off to do a bit more planning to figure out the responsibilities of each of my classes. In a few places I have classes performing tasks which are unrelated to their intended purpose. 
 
 **The Ugly:** Code duplication. I've cleaned up a bit of this in a newer version, which will hopefully be pushed to github by the time you read this. Aside from this, the UI is incredibly fragile. The game border is constructed from many individual square sprites. The UI only functions properly in a 16:9 aspect ratio, so I locked the window to 1920x1080. If I were to change this, I would most likely design the game to take place on a Nokia 3310 screen, and let that be static so the user can resize the game to any size they wish that fits the nokia on-screen.
 
